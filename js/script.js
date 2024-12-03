@@ -675,7 +675,7 @@
 
         clearTimeout($.data(this, 'resizeTimer'));
         $.data(this, 'resizeTimer', setTimeout(function() {
-            smallNavFunctionality();
+            // smallNavFunctionality();
         }, 200));
     });
 
