@@ -642,7 +642,7 @@
 
         bgParallax();
 
-        activeMenuItem($(".navigation-holder"));
+        // activeMenuItem($(".navigation-holder"));
 
         if ($(".header-style-1").length) {
             stickIt($(".sticky"), "sticky-on", $(".header-style-1 .navbar").offset().top);
