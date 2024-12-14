@@ -1718,10 +1718,13 @@ body #timeline {
   border: 5px solid var(--third-color);
 }
 
-.dresscode-fir  {
-  display: flex !important;
-}
 
+@media (min-width:992px) {
+    .dresscode-fir  {
+  display: flex !important;
+     
+    }
+}
 
 @media (max-width:480px) {
   .dresscode-block-first {
